@@ -21,13 +21,3 @@ MQTT_TOPIC_BASE = "apolo/{patient_number}/vitals"
 
 PUBLISH_INTERVAL = 60  # Interval in seconds
 
-
-MQTT_PORT = 8883
-
-# List of patient numbers for simulation
-PATIENT_NUMBERS = ["12345", "67890", "11223"]  # Replace with actual patient numbers
-
-# MQTT topic base with placeholder for patient number
-MQTT_TOPIC_BASE = "apolo/{patient_number}/vitals"
-
-PUBLISH_INTERVAL = 60  # Interval in seconds
