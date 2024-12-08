@@ -6,10 +6,10 @@
 # PRIVATE_KEY = "path/to/your-private.pem.key"
 # constants.py
 
-AWS_IOT_ENDPOINT = "a2yl03138096o1-ats.iot.ap-south-1.amazonaws.com"
+AWS_IOT_ENDPOINT = "xxxxxx-ats.iot.ap-south-1.amazonaws.com" # get from security section
 CA_CERT = "./AmazonRootCA1.pem"
-CLIENT_CERT = "./3737782a99d57a2d7e6fc3f3263f327a8a5b992d6f61454e3b9fd465485a083b-certificate.pem.crt"
-PRIVATE_KEY = "./3737782a99d57a2d7e6fc3f3263f327a8a5b992d6f61454e3b9fd465485a083b-private.pem.key"
+CLIENT_CERT = "./example-certificate.pem.crt"
+PRIVATE_KEY = "./example-private.pem.key"
 
 MQTT_PORT = 8883
 
